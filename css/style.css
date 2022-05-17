@@ -1,0 +1,27 @@
+body {
+    color: white;
+}
+
+.bg {
+    background-image: url("../img/Bioluminescence\ lights\ up\ Jervis\ Bay\ on\ Anzac\ Day.jpg");
+    height: 100%;
+    min-height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card {
+    background-color: #000000e3;
+    color: white;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.search, .card-body .btn {
+    background-color: #2a2a2a9e !important;
+    color: white !important;
+}
